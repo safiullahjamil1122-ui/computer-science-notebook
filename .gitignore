@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/settings.json
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
