@@ -50,6 +50,18 @@ The repository is designed to read like a professional open-source knowledge bas
 ### Data Structures
 - [Arrays](docs/data-structures/arrays/README.md)
 - [Linked Lists](docs/data-structures/linked-lists/README.md)
+- [Stacks](docs/data-structures/stacks/README.md)
+- [Queues](docs/data-structures/queues/README.md)
+- [Hash Tables](docs/data-structures/hash-tables/README.md)
+- [Trees](docs/data-structures/trees/README.md)
+
+### Algorithms
+- [Sorting Algorithms](docs/algorithms/sorting/README.md)
+- [Searching Algorithms](docs/algorithms/searching/README.md)
+
+### Interview Preparation & References
+- [Big-O Complexity Cheat Sheet](cheat-sheets/big-o-complexity.md)
+- [Behavioral & System Design Patterns](docs/interview-preparation/README.md)
 
 Each topic package includes:
 - conceptual explanation,
