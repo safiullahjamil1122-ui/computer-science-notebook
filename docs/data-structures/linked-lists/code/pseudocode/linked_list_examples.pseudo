@@ -1,0 +1,19 @@
+FUNCTION insert_front(head, value)
+    CREATE new_node WITH value
+    new_node.next = head
+    head = new_node
+    RETURN head
+END FUNCTION
+
+FUNCTION traverse(head)
+    current = head
+    WHILE current IS NOT null
+        OUTPUT current.value
+        current = current.next
+END FUNCTION
+
+FUNCTION delete_after(previous)
+    target = previous.next
+    previous.next = target.next
+    DELETE target
+END FUNCTION

@@ -1,0 +1,21 @@
+FUNCTION linear_search(values, target)
+    FOR index FROM 0 TO length(values) - 1
+        IF values[index] = target
+            RETURN index
+    RETURN -1
+END FUNCTION
+
+FUNCTION traverse(values)
+    FOR each value IN values
+        OUTPUT value
+END FUNCTION
+
+FUNCTION insert_at(values, index, element)
+    SHIFT elements from index to the right
+    PLACE element at index
+END FUNCTION
+
+FUNCTION delete_at(values, index)
+    REMOVE element at index
+    SHIFT later elements left
+END FUNCTION
