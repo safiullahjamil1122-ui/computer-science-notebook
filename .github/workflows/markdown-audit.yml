@@ -1,0 +1,32 @@
+name: Markdown Audit
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  markdown:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Lint markdown
+        uses: DavidAnson/markdownlint-cli2-action@v19
+        with:
+          globs: |
+            README.md
+            CONTRIBUTING.md
+            CODE_OF_CONDUCT.md
+            cheat-sheets/**/*.md
+            docs/**/*.md
+            templates/**/*.md
+
+      - name: Check markdown links
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          folder-path: .
+          config-file: .github/markdown-link-check.json

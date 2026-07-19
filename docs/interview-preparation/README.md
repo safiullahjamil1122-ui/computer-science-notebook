@@ -1,6 +1,8 @@
 # Interview Preparation
 
-This section consolidates behavioral and architectural patterns designed to help you pass the non-coding portions of technical interviews (e.g., System Design, Behavioral/Leadership, and General Engineering Principles).
+This section consolidates behavioral, system design, and general engineering notes designed to help you pass the non-coding portions of technical interviews.
+
+It is documentation-first by design: the goal here is to improve interview performance, not to mirror the implementation-heavy layout used in the algorithm and data-structure chapters.
 
 ---
 
@@ -10,6 +12,12 @@ This section consolidates behavioral and architectural patterns designed to help
 2. [Architectural Principles](#architectural-principles)
 3. [System Design Core Concepts](#system-design-core-concepts)
 4. [Common Behavioral Questions](#common-behavioral-questions)
+
+---
+
+## Why It Matters
+
+Strong non-coding interview performance depends on clear structure, crisp trade-off language, and a repeatable way to explain decisions. This section captures that language so you can prepare with the same discipline used in the technical chapters.
 
 ---
 

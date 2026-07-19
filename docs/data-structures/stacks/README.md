@@ -103,17 +103,9 @@ Uses a singly linked list where elements are inserted/removed at the `head`.
 
 ## Code Overview
 
-Reference implementations are stored separately under:
+This chapter currently focuses on conceptual explanation, implementation trade-offs, and interview preparation.
 
-- [C++](code/cpp/)
-- [Python](code/python/)
-- [Pseudocode](code/pseudocode/)
-
-What each example demonstrates:
-
-- **C++:** Demonstrates `std::stack` adapter and a custom array-backed stack template.
-- **Python:** Demonstrates using a standard `list` as a stack, utilizing `append()` and `pop()`.
-- **Pseudocode:** Shows the algorithmic structure of the Push and Pop invariants.
+Implementation files can be added later under a topic-local `code/` directory if the chapter expands into worked source examples.
 
 ---
 

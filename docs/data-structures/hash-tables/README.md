@@ -105,16 +105,9 @@ Array Buckets:
 
 ## Code Overview
 
-Reference implementations are stored separately under:
+This chapter currently focuses on conceptual explanation, collision-handling theory, and interview preparation.
 
-- [C++](code/cpp/)
-- [Python](code/python/)
-- [Pseudocode](code/pseudocode/)
-
-What each example demonstrates:
-- **C++:** Demonstrates `std::unordered_map` and a custom implementation using chaining (`std::vector` of `std::list`).
-- **Python:** Demonstrates the built-in `dict` and `set`.
-- **Pseudocode:** Shows the logic for resolving collisions via Linear Probing.
+Implementation files can be added later under a topic-local `code/` directory if the chapter expands into worked source examples.
 
 ---
 

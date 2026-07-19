@@ -1,6 +1,6 @@
 # Big-O Complexity Cheat Sheet
 
-This cheat sheet provides a quick-reference guide for the Time and Space complexities of common data structures and sorting algorithms. 
+This cheat sheet provides a quick-reference guide for the time and space complexities of common data structures, sorting algorithms, and traversals.
 
 *Use this for rapid revision before technical interviews.*
 
@@ -42,7 +42,7 @@ This cheat sheet provides a quick-reference guide for the Time and Space complex
 | Algorithm | Time | Space | Best For |
 |---|:---:|:---:|---|
 | **Binary Search** | $O(\log n)$ | $O(1)$ | Finding elements in a *sorted* array. |
-| **Breadth-First Search (BFS)**| $O(V + E)$ | $O(V)$ | Finding the *shortest path* in unweighted graphs. |
+| **Breadth-First Search (BFS)** | $O(V + E)$ | $O(V)$ | Finding the *shortest path* in unweighted graphs. |
 | **Depth-First Search (DFS)** | $O(V + E)$ | $O(V)$ | Exhaustive search, backtracking, topological sort. |
 
 ---

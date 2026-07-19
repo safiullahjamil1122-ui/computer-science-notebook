@@ -116,16 +116,9 @@ Use two pointers, `left` and `right`. Calculate `mid = left + (right - left) / 2
 
 ## Code Overview
 
-Reference implementations are stored separately under:
+This chapter currently focuses on conceptual explanation, complexity analysis, and interview preparation.
 
-- [C++](code/cpp/)
-- [Python](code/python/)
-- [Pseudocode](code/pseudocode/)
-
-What each example demonstrates:
-- **C++:** Demonstrates Binary Search avoiding integer overflow on the `mid` calculation.
-- **Python:** Demonstrates BFS using `collections.deque` and DFS using a `set` for visited nodes.
-- **Pseudocode:** Highlights the purely structural differences between BFS (Queue) and DFS (Stack).
+Implementation files can be added later under a topic-local `code/` directory if the chapter expands into worked source examples.
 
 ---
 

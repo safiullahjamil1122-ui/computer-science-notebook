@@ -296,7 +296,6 @@ Arrays are used in production systems for:
 ## References
 
 - Cormen, Leiserson, Rivest, and Stein, *Introduction to Algorithms*.
-- *Introduction to Algorithms* (CLRS), MIT Press.
 - cppreference: https://en.cppreference.com/
 - Python Documentation: https://docs.python.org/3/
 - MIT OpenCourseWare: https://ocw.mit.edu/

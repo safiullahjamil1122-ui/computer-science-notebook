@@ -81,7 +81,7 @@ Merge Sort (Divide and Conquer)
 | Algorithm | Best Time | Average Time | Worst Time | Space | Stable? |
 |---|---|---|---|---|---|
 | Bubble Sort | $O(n)$ | $O(n^2)$ | $O(n^2)$ | $O(1)$ | Yes |
-| Insertion Sort| $O(n)$ | $O(n^2)$ | $O(n^2)$ | $O(1)$ | Yes |
+| Insertion Sort | $O(n)$ | $O(n^2)$ | $O(n^2)$ | $O(1)$ | Yes |
 | Merge Sort | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | $O(n)$ | Yes |
 | Quick Sort | $O(n \log n)$ | $O(n \log n)$ | $O(n^2)$ | $O(\log n)$ | No |
 | Heap Sort | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | $O(1)$ | No |
@@ -111,16 +111,9 @@ Merge Sort (Divide and Conquer)
 
 ## Code Overview
 
-Reference implementations are stored separately under:
+This chapter currently focuses on conceptual explanation, complexity analysis, and interview preparation.
 
-- [C++](code/cpp/)
-- [Python](code/python/)
-- [Pseudocode](code/pseudocode/)
-
-What each example demonstrates:
-- **C++:** Demonstrates an in-place Quick Sort and an out-of-place Merge Sort using standard library vectors.
-- **Python:** Demonstrates the conceptual elegance of Quick Sort using list comprehensions (though not strictly in-place).
-- **Pseudocode:** Shows the algorithmic swap logic for Bubble Sort.
+Implementation files can be added later under a topic-local `code/` directory if the chapter expands into worked source examples.
 
 ---
 

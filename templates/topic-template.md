@@ -82,17 +82,13 @@
 
 ## Code Overview
 
-Reference implementations are stored separately under:
-
-- [C++](code/cpp/)
-- [Python](code/python/)
-- [Pseudocode](code/pseudocode/)
+If this topic includes worked examples, keep them in a local `code/` directory and describe them here.
 
 What each example demonstrates:
 
-- [Explain what the C++ code shows.]
-- [Explain what the Python code shows.]
-- [Explain what the pseudocode shows.]
+- C++: [Explain what the C++ code shows.]
+- Python: [Explain what the Python code shows.]
+- Pseudocode: [Explain what the pseudocode shows.]
 
 ---
 

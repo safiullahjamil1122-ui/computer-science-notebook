@@ -11,6 +11,15 @@ Desktop.ini
 # Temporary files
 *.tmp
 *.temp
+*.pyc
+__pycache__/
+.pytest_cache/
+.coverage
+coverage/
+dist/
+node_modules/
+.venv/
+.env
 
 # Logs
 *.log

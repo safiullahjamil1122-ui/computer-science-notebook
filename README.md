@@ -17,7 +17,7 @@ A structured knowledge base for Computer Science topics, examples, diagrams, imp
 
 ## Overview
 
-This repository is organized as a long-term study and portfolio resource for Computer Science. The goal is to keep concepts, code, and interview preparation in one place with a structure that is easy to navigate and easy to extend.
+This repository is organized as a long-term study and portfolio resource for Computer Science. The goal is to keep concepts, worked examples, and interview preparation in one place with a structure that is easy to navigate and easy to extend.
 
 The repository is designed to read like a professional open-source knowledge base rather than a personal note dump.
 
@@ -36,8 +36,8 @@ The repository is designed to read like a professional open-source knowledge bas
 
 | Folder | Purpose |
 |---|---|
-| `docs/` | Topic documentation organized by subject area. Each topic encapsulates its own `code/`, `assets/`, and `practice/`. |
-| `examples/` | Shared code examples spanning multiple topics. (Prefer topic-level `code/` for specific concepts). |
+| `docs/` | Topic documentation organized by subject area. Some chapters include their own `code/`, `assets/`, and `practice/` folders when implementation material is available. |
+| `examples/` | Shared examples spanning multiple topics. Prefer topic-level implementation files for topic-specific concepts. |
 | `assets/` | Global diagrams, icons, and supporting images. |
 | `references/` | Global curated reference material and source links. |
 | `templates/` | Reusable documentation templates (e.g., `topic-template.md`). |
@@ -63,14 +63,16 @@ The repository is designed to read like a professional open-source knowledge bas
 - [Big-O Complexity Cheat Sheet](cheat-sheets/big-o-complexity.md)
 - [Behavioral & System Design Patterns](docs/interview-preparation/README.md)
 
-Each topic package includes:
+Most topic packages include:
 - conceptual explanation,
-- memory-layout discussion,
+- memory-layout discussion where relevant,
 - complexity analysis,
 - implementation overview,
-- code examples,
+- code examples where present,
 - interview questions,
 - practice problems.
+
+Interview-preparation notes are documentation-first and intentionally do not follow the same implementation layout.
 
 ---
 
@@ -79,6 +81,7 @@ Each topic package includes:
 - Explore topics via the **Topic Index** above.
 - View code examples within each topic's respective `code/` directory (e.g., `docs/data-structures/arrays/code/`).
 - To add new topic packages, duplicate the [Topic Template](templates/topic-template.md) into the appropriate `docs/` subdirectory.
+- If a chapter includes implementation files, keep them close to the topic documentation so the navigation stays local and predictable.
 
 ---
 

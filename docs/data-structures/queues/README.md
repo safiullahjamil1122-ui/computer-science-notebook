@@ -113,16 +113,9 @@ Uses a linked list where `head` acts as the Front, and `tail` acts as the Rear.
 
 ## Code Overview
 
-Reference implementations are stored separately under:
+This chapter currently focuses on conceptual explanation, implementation trade-offs, and interview preparation.
 
-- [C++](code/cpp/)
-- [Python](code/python/)
-- [Pseudocode](code/pseudocode/)
-
-What each example demonstrates:
-- **C++:** Demonstrates `std::queue` adapter and a custom Circular Array queue implementation.
-- **Python:** Demonstrates `collections.deque` (Double-Ended Queue) because standard Python `list.pop(0)` is $O(n)$.
-- **Pseudocode:** Shows the pointer logic for linked-list based Enqueue/Dequeue.
+Implementation files can be added later under a topic-local `code/` directory if the chapter expands into worked source examples.
 
 ---
 

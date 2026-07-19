@@ -24,7 +24,7 @@ Trees are a foundational, non-linear hierarchical data structure. Unlike arrays,
 
 ## Overview
 
-A Tree is a collection of nodes connected by directed edges. It has a single root node and no cycles (it is an acyclic connected graph). 
+A tree is a connected, acyclic graph. In the rooted-tree variant, one node is designated as the root and edges are usually treated as pointing away from that root.
 
 The most common variant in software engineering is the **Binary Tree**, where each node has at most two children. An extension of this is the **Binary Search Tree (BST)**, which enforces a sorted property on the nodes to enable rapid searching.
 
@@ -113,16 +113,9 @@ Deleting a leaf is trivial. Deleting a node with one child involves replacing th
 
 ## Code Overview
 
-Reference implementations are stored separately under:
+This chapter currently focuses on conceptual explanation, traversal theory, and interview preparation.
 
-- [C++](code/cpp/)
-- [Python](code/python/)
-- [Pseudocode](code/pseudocode/)
-
-What each example demonstrates:
-- **C++:** Demonstrates pointer-based memory management of a custom BST class.
-- **Python:** Demonstrates tree node classes and recursive traversals.
-- **Pseudocode:** Illustrates the logic for the complex two-child deletion scenario.
+Implementation files can be added later under a topic-local `code/` directory if the chapter expands into worked source examples.
 
 ---
 
